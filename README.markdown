@@ -5,6 +5,19 @@ Git, it seems, has nothing like svn cat. Svn cat is a great tool that displays a
 
 I needed to see a previous version of a file, because git diff wouldn't have provided enough context, so I needed this tool.
 
+Installation
+=============================
+
+It's probably easiest to clone this repository somewhere then create a symlink on your path with the proper naming convention.
+
+    $ git clone https://github.com/rwilcox/git-cat.git
+    $ ln -s `pwd`/git-cat/git-cat.sh ~/bin/git-cat
+
+Assuming of course that you have `~/bin/` in your $PATH this will allow a workflow like:
+
+    $ git cat README.markdown 1cba2d72 
+
+I suggest a symlink under the assumption that you have `~/bin` under some kind of version control already, and/or don't want to put the git-cat repository directly on your $PATH.
 
 On the shoulders of giants
 ===============================
