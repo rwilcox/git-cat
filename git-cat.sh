@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # Created by WD-rpw 09-25-2009 when finding out that git had nothing like svn cat
 # Based on information from: <http://buildmonkey.wordpress.com/2009/05/14/git-cat-contd/>
