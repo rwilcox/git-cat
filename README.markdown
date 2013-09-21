@@ -11,7 +11,7 @@ Installation
 It's probably easiest to clone this repository somewhere then create a symlink on your path with the proper naming convention.
 
     $ git clone https://github.com/rwilcox/git-cat.git
-    $ ln -s `pwd`/git-cat/git-cat.sh ~/bin/git-cat
+    $ ln -s `pwd`/git-cat/git-cat ~/bin/git-cat
 
 Assuming of course that you have `~/bin/` in your $PATH this will allow a workflow like:
 
@@ -42,7 +42,7 @@ TODO
 
 If you want to help here are some things I'd like to do but lack time:
 
-  1. Extract help documentation from the `git-cat.sh` file and make it something that can be translated into a manpage.
+  1. Extract help documentation from the `git-cat` file and make it something that can be translated into a manpage.
   2. Installation script to install a `git-cat` symbolic link to somewhere nice on $PATH, and also install said manpage.
 
 Authors
