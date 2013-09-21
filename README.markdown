@@ -19,6 +19,7 @@ Assuming of course that you have `~/bin/` in your $PATH this will allow a workfl
 
 I suggest a symlink under the assumption that you have `~/bin` under some kind of version control already, and/or don't want to put the git-cat repository directly on your $PATH.
 
+
 On the shoulders of giants
 ===============================
 
@@ -36,6 +37,13 @@ Before I built this tool I did some Google searching. Some of this searching fou
   * [http://stackoverflow.com/questions/610208/how-to-retrieve-a-single-file-from-specific-revision-in-git](http://stackoverflow.com/questions/610208/how-to-retrieve-a-single-file-from-specific-revision-in-git)  
     Seems to solve the problem, but gives me an odd error I couldn't figure out how to fix on Git 1.6.2. Stupid git.
 
+TODO
+=============================
+
+If you want to help here are some things I'd like to do but lack time:
+
+  1. Extract help documentation from the `git-cat.sh` file and make it something that can be translated into a manpage.
+  2. Installation script to install a `git-cat` symbolic link to somewhere nice on $PATH, and also install said manpage.
 
 Authors
 ===============================
